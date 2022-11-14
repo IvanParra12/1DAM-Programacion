@@ -11,17 +11,15 @@ public class PyString06 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        String l1 = "hola caballo casa";
-        String l2 = "teclado cuadro coche";
+        System.out.println("Escribe la primera frase: ");
+        String l1 = new Scanner(System.in).nextLine();
         
-        StringBuilder cadena = new StringBuilder(l1);
-        StringBuilder cadena2 = new StringBuilder(l2);
+        System.out.println("Escribe la primera frase: ");
+        String l2 = new Scanner(System.in).nextLine();
         
-        cadena.append(cadena2);
+        String conjunto = l1+ " " +l2;
         
-        cadena.toString();
-        
-        System.out.println(cadena);
+        System.out.println(conjunto);
     }
     
 }
