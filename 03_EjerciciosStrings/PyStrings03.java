@@ -15,24 +15,11 @@ public class PyStrings03 {
         System.out.println("Introduce una frase para traducirla a latin: ");
         String cadena = new Scanner(System.in).nextLine();
         
-        char vocalA = 'a';
-        char vocalE = 'e';
-        char vocalI = 'i';
-        char vocalO = 'o';
-        char vocalU = 'u';
-
-        int posFinal = cadena.length()-1; //Restas uno para obtener el índice del ultimo caracter
-        char caracterFinal = cadena.charAt(posFinal);//obtienes el carácter de dicha posición
-        
-        if (caracterFinal == vocalA) {
-            System.out.println(cadena.substring(0, cadena.length()-1) + "us");
-        } else if (caracterFinal == vocalE) {
-            System.out.println(cadena.substring(0, cadena.length()-1) + "us");
-        } else if (caracterFinal == vocalI) {
-            System.out.println(cadena.substring(0, cadena.length()-1) + "us");
-        } else if (caracterFinal == vocalO) {
-            System.out.println(cadena.substring(0, cadena.length()-1) + "us");
-        } else if (caracterFinal == vocalU) {
+        boolean vocal = cadena.endsWith("a") || cadena.endsWith("e") ||
+                        cadena.endsWith("i") || cadena.endsWith("o") ||
+                        cadena.endsWith("u");
+              
+        if (vocal == true) {
             System.out.println(cadena.substring(0, cadena.length()-1) + "us");
         } else {
             System.out.println(cadena + "us");
