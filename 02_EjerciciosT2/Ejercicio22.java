@@ -15,7 +15,6 @@ public class Ejercicio22 {
         TarjetaCredito tarjeta = new TarjetaCredito(5000, 1111);
         
         try {
-           tarjeta.getSaldo(1111);
            System.out.println("El saldo de la cuenta es :"
                    +tarjeta.getSaldo(1111));
         } catch(Exception sueldo) {
