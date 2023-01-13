@@ -1,0 +1,17 @@
+a) Se repiten los saltos, repetición determinada.
+b) Se repiten las flexiones, repetición indeterminada.
+c) Se repiten los números, repetición determinada con interrupción.
+d) Se repite la frase "En clase no se habla", repetición determinada.
+e) Se repiten los artículos, repetición determinada.
+f) Se repite el sonido, repetición indeterminada.
+g) Se repiten las ecuaciones, repetición determinada.
+h) Se repite el mensaje, repetición indeterminada.
+i) Se repite el uso de la grabadora, repetición indeterminada.
+j) Se repite la acción de andar, repetición determinada con interrupción.
+k) Se repite la acción de comprar, repetición indeterminada.
+l) Se repite la transferencia byte a byte del archivo, repetición determinada.
+m) Se repite la acción de grabar, repetición determinada con interrupción.
+n) Se repite el funcionamiento de la alarma, repetición indeterminada.
+o) Se repiten los penaltis, repetición determinada con interrupción.
+p) Se repiten los ejercicios, repetición determinada con interrupción.
+q) Se repite el menú de opciones, repetición indeterminada.
