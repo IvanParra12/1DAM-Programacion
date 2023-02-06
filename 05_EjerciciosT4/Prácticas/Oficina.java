@@ -43,7 +43,7 @@ public class Oficina {
         nombre = n;
 
         if (tipo <= 0 || tipo > 3) {
-            trabajadores = null;
+            trabajadores = new ArrayList<Persona>();
         } else if (tipo == 1) {
             trabajadores.add(new Persona("Antonio Perez Perez",
                     11111111, 'H', 900,
