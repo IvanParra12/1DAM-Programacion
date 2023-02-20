@@ -79,11 +79,11 @@ public class MarcadorBaloncesto {
        
         if(equipo == 'L') {
             
-            this.puntosVisitante += puntos;
+            this.puntosLocal += puntos;
         }
         else if(equipo == 'V') {
             
-            this.puntosLocal += puntos;
+            this.puntosVisitante += puntos;
         }
     }
     
