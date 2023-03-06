@@ -33,6 +33,7 @@ public class Compras {
                     + " Faltan "+Math.abs(this.presupuesto - dinero)+" euros");
         } else {
             this.precios.add(dinero);
+            this.presupuesto -= dinero;
         }
     }
 
